@@ -50,9 +50,16 @@ const App = () => {
   return (
     <div className="App">
       <h1>React Anime Quiz</h1>
-      <button className="start" onClick={startTrivia}>Start</button>
-      <p className="score">Score:</p>
-      <p>Loading Questions...</p>
+
+      {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
+        <button className="start" onClick={startTrivia}>
+          Start
+        </button>
+      ) : null }
+
+      {!gameOver ? <p className="score">Score:</p> : null}
+      {loading && <p>Loading Questions...</p> }
+      
       {/* <QuestionCard 
         questionNr={number + 1}
         totalQuestion={TOTAL_QUESTIONS}
