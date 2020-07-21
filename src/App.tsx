@@ -6,7 +6,7 @@ import { fetchQuizQuestions } from './API';
 import { QuestionState, Difficulty } from './API';
 
 type AnswerObject = {
-  question: string;
+  questions: string;
   answer: string;
   correct: boolean;
   correctAnswer: string;
@@ -40,7 +40,23 @@ const App = () => {
   }
 
   const checkAnswer = (e: React.MouseEvent<HTMLButtonElement>) => {
+    if (!gameOver) {
+      const answer = e.currentTarget.value
+      const correct =  questions[number].correct_answer === answer
 
+      if(correct) {
+        setScore(prev => prev + 1)
+      }
+
+      const answerObject = {
+        questions: questions[number].question,
+        answer,
+        correct,
+        correctAnswer: questions[number].correct_answer,
+      }
+
+      setUserAnswers((prev) => [...prev, answerObject])
+    }
   }
 
   const nextQuestion = () => {
