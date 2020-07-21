@@ -1,5 +1,20 @@
 import React from 'react'
 
-const QuestionCard = () => <div>Question Card</div>
+type Props = {
+    question: string;
+    answer: string[];
+    callback: any;
+    userAnswer: string;
+    questionNr: number;
+    totalQuestion: number;
+}
+
+const QuestionCard = () => {
+    return(
+        <div>
+            Question Card
+        </div>
+    )
+}
 
 export default QuestionCard

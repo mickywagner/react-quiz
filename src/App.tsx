@@ -1,4 +1,6 @@
 import React from 'react';
+import QuizCard from './components/QuestionCard'
+import QuestionCard from './components/QuestionCard';
 
 const App = () => {
   const startTrivia = async () => {
@@ -19,7 +21,8 @@ const App = () => {
       <button className="start" onClick={startTrivia}>Start</button>
       <p className="score">Score:</p>
       <p>Loading Questions...</p>
-      
+      <QuestionCard />
+      <button className="next" onClick={nextQuestion}>Next Question</button>
     </div>
   );
 }
