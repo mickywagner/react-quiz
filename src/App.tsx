@@ -78,7 +78,7 @@ const App = () => {
         </button>
       ) : null }
 
-      {!gameOver ? <p className="score">Score:</p> : null}
+      {!gameOver ? <p className="score">Score: {score}</p> : null}
       {loading && <p>Loading Questions...</p> }
       
       {!loading && !gameOver && (
