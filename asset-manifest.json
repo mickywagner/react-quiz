@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/react-quiz/static/js/main.54a0f031.chunk.js",
+    "main.js.map": "/react-quiz/static/js/main.54a0f031.chunk.js.map",
+    "runtime-main.js": "/react-quiz/static/js/runtime-main.c3646c95.js",
+    "runtime-main.js.map": "/react-quiz/static/js/runtime-main.c3646c95.js.map",
+    "static/js/2.f6d740e8.chunk.js": "/react-quiz/static/js/2.f6d740e8.chunk.js",
+    "static/js/2.f6d740e8.chunk.js.map": "/react-quiz/static/js/2.f6d740e8.chunk.js.map",
+    "index.html": "/react-quiz/index.html",
+    "precache-manifest.7968d0f3498f285e9e3095b9542841cc.js": "/react-quiz/precache-manifest.7968d0f3498f285e9e3095b9542841cc.js",
+    "service-worker.js": "/react-quiz/service-worker.js",
+    "static/js/2.f6d740e8.chunk.js.LICENSE.txt": "/react-quiz/static/js/2.f6d740e8.chunk.js.LICENSE.txt",
+    "static/media/dark_continent.jpg": "/react-quiz/static/media/dark_continent.e06288c3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3646c95.js",
+    "static/js/2.f6d740e8.chunk.js",
+    "static/js/main.54a0f031.chunk.js"
+  ]
+}
