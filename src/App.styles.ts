@@ -40,16 +40,17 @@ export const Wrapper = styled.div`
     }
 
     h1 {
-        font-family: Fascinate inInline, sans-serif;
+        font-family: 'Fascinate Inline', sans-serif;
         background-image: linear-gradient(180deg, #fff, #87f1ff);
         background-size: 100%;
         background-clip: text;
-        --webkit-background-clip: text;
-        --webkit-text-fill-color: transparent;
-        --moz-background-clip: text;
-        --moz-text-fill-color: transparent;
-        filter: drop-shadow(2px 2px #00085a3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+        filter: drop-shadow(2px 2px black);
         font-size: 70px;
+        font-weight: 700;
         text-align: center;
         margin: 20px;
     }
