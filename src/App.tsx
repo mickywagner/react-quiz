@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState }from 'react';
 import QuizCard from './components/QuestionCard'
 import QuestionCard from './components/QuestionCard';
 
 const App = () => {
+  const [loading, setLoading] = useState(false)
+  const [questions, setQuestions] = useState([])
+  const [number, setNumber] = useState(0)
+  const [userAnswer, setUserAnswer] = useState([])
+  const [score, setScore] = useState(0)
+  const [gameOver, setGameOver] = useState(true)
+  
   const startTrivia = async () => {
 
   }
