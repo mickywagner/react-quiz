@@ -1,3 +1,27 @@
+# React Quiz Game
+
+<h3>Screenshots</h3>
+<img src="/Readme_images/app.png">
+
+<h3>About This Project</h3>
+<p>
+  This is a simple Javascript quiz, built with Typescript and React. Questions and answers come from connecting to the <a href="https://opentdb.com/">Open Trivia DB API</a>.
+</p>
+<p>Live version <a href="https://mickywagner.github.io/react-quiz/">here</a>.</p>
+
+
+<h3>Technical Sheet</h3>
+
+<strong>
+<ul>
+  <li>HTML 5</li>
+  <li>CSS 3</li>
+  <li>Javascript ES6</li>
+  <li>Typescript</li>
+  <li>React - React Hooks</li>
+</ul>
+</strong>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
