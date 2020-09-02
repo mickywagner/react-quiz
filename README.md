@@ -1,7 +1,7 @@
 # React Quiz Game
 
 <h3>Screenshots</h3>
-<img src="/Readme_images/app.png">
+<img src="app.gif">
 
 <h3>About This Project</h3>
 <p>
