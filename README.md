@@ -1,4 +1,4 @@
-#React Quiz Game
+# React Quiz Game
 
 <h3>Screenshots</h3>
 <img src="/Readme_images/app.png">
